@@ -1,0 +1,9 @@
+streamlit
+librosa
+numpy
+soundfile
+torch
+torchaudio
+TTS
+speechbrain==0.5.16
+matplotlib

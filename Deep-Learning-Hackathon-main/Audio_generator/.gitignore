@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+.vscode/
+
+audio_cache/
+clean_audio/
+processed_audio/
+tmp_model/
+
+output.wav
+output_16k.wav
+merged.wav

@@ -1,0 +1,53 @@
+# ======================
+# GENERAL
+# ======================
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+.vscode/
+
+# ======================
+# PROJECT TEMP FILES
+# ======================
+audio_cache/
+clean_audio/
+processed_audio/
+tmp_model/
+
+output.wav
+output_16k.wav
+merged.wav
+
+# ======================
+# HACKATHON PROJECT IGNORE
+# ======================
+
+# environments
+DL_Hackathon_ps12_g24/audio_disc_env/
+DL_Hackathon_ps12_g24/audio_env/
+
+# datasets
+DL_Hackathon_ps12_g24/image_data/
+DL_Hackathon_ps12_g24/reference_speaker/
+
+# generated outputs
+DL_Hackathon_ps12_g24/cloned_audio/
+DL_Hackathon_ps12_g24/clones/
+
+# models (VERY IMPORTANT)
+DL_Hackathon_ps12_g24/models/
+DL_Hackathon_ps12_g24/wav2vec_asvspoof_model/
+DL_Hackathon_ps12_g24/wav2vec2-for-norm-finetuned/
+DL_Hackathon_ps12_g24/*.pth
+DL_Hackathon_ps12_g24/wav2vec2_asvspoof_model/
+*.bin
+# audio files
+DL_Hackathon_ps12_g24/*.wav
+
+# results
+DL_Hackathon_ps12_g24/*.png
+
+# cache
+DL_Hackathon_ps12_g24/__pycache__/
